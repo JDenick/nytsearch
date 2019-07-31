@@ -1,0 +1,19 @@
+.jumbotron {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #21325a;
+    font-size: 48px;
+    line-height: 72px;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    margin: 20px auto;
+    width: 960px;
+}
+
+form {
+    width: 860px;
+    margin: 10px auto;
+}
