@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Practice</title>
+</head>
+
+
+<body>
+    <h1>URL IS IN CONSOLE:</h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=" + "XHt58Qvh03giwbKjOZ9aXEeygf0HsfHQ"
+        console.log(queryURL);
+    
+        // BACKEND NYTSEARCH ACTIVITY
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    }).then(function(response){
+        console.log(response);
+
+        var obj = {status, response}
+        console.log(obj);
+
+        document.write(response);
+    });
+
+    </script>
+</body>
+</html>
